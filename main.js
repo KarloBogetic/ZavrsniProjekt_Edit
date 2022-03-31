@@ -7,6 +7,13 @@ async function getTrivia(){
     return data;
 }
 
+function shuffleAnswers(answers){
+    for(let i=3;i>0;i--){
+        let a = Math.floor(Math.random())*(i+1);
+        [answers[i], answers[a]] = [answers[a], answers[i]];
+    }
+}
+
 getTrivia().then(data => {
     const results = data.results;
 /*     console.log(results);*/
@@ -20,20 +27,21 @@ getTrivia().then(data => {
         document.getElementById(`choiceLabel${a}`).innerHTML = answers[i];
         document.getElementById(`choice${a}`).value = answers[i];
     }
-    
-    document.getElementById('submit').addEventListener('click',() =>{
-        /* function checkAnswers(){} */
+
+    let correct=0;
+    document.getElementById('enter').addEventListener('click', () => {
+        document.querySelectorAll('input[name="choice"]').forEach(el => {
+            if(el.checked){
+/*                 console.log(el.value);
+                console.log(results[0].correct_answer); */
+                if(el.value === results[0].correct_answer){
+                    correct+=1;
+                    /* console.log(correct); */
+                }
+            }
+        })
     })
+    console.log(correct);
 })
 
-function shuffleAnswers(answers){
-    for(let i=3;i>0;i--){
-        let a = Math.floor(Math.random())*(i+1);
-        [answers[i], answers[a]] = [answers[a], answers[i]];
-    }
-}
-
-/* function checkAnswers(){
-
-} */
-
+/* trenutacno je sve u testnom stanju, znači samo za prvi element, na kraju svega ubacit u petlju da prolazi nizom ogranicene velicine */
