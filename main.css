@@ -1,5 +1,29 @@
-#Naslovnica{
+/*Stila za općenito cijelu stranicu*/
+body{
+    background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40529/White_Background_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Stil za naslov*/
+#Title{
+    color: antiquewhite;
+    align-content: center;
     background-color: brown;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+}
+
+/* Stil za celebrity kategoriju*/
+#Celebrity{
+    color: antiquewhite;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 60%;
+    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
 }
