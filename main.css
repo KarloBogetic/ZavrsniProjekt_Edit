@@ -7,7 +7,7 @@ body{
 
 /*Stil zajednički za karticu svih kategorija*/
 .card{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     text-align: center;
     margin-left: auto;
@@ -44,9 +44,36 @@ body{
     background-size: cover;
 }
 
+/*Stil za geography kategoriju*/
 #Geography{
     background-image: url('https://geography.as.miami.edu/_assets/images/demo/s_earth_1250x507.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/*Stil za Sports kategoriju*/
+#Sports{
+    background-image: url('https://www.beachvillas.com/travel/wp-content/uploads/2020/11/Return_of_Sports.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Stil za Animals kategoriju*/
+#Animals{
+    background-image: url('https://www.timeforkids.com/wp-content/uploads/2020/08/animalVoting.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Stil za Movies kategoriju*/
+#Movies{
+    background-image: url('https://image.shutterstock.com/image-vector/movie-night-concept-creative-template-600w-1055348723.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#History{
+    background-image: url('https://caseymccall.com/wp-content/uploads/2021/12/maps-atlantic-oldtimer-car-compass-vintage-1442539-pxhere.com_-660x382-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
