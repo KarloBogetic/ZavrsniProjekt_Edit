@@ -13,14 +13,14 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    width: 60%;
+    width: 55%;
     transition: 0.3s;
 }
 
 /*Promjena kartica ako se hovera misom preko nje*/
 .card:hover{
     box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.2);
-    width: 70%;
+    width: 60%;
 }
 
 /*Stil za naslov*/
@@ -29,12 +29,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.95;
 }
 
 /* Stil za celebrity kategoriju*/
