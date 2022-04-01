@@ -1,4 +1,12 @@
 const apiCeleb = 'https://opentdb.com/api.php?amount=10&category=26&type=multiple';
+const apiGeo = 'https://opentdb.com/api.php?amount=10&category=22&type=multiple';
+const apiSport = 'https://opentdb.com/api.php?amount=10&category=21&type=multiple';
+const apiAnimal = 'https://opentdb.com/api.php?amount=10&category=27&type=multiple';
+const apiFilm = 'https://opentdb.com/api.php?amount=10&category=11&type=multiple';
+const apiHistory = 'https://opentdb.com/api.php?amount=10&category=23&type=multiple';
+
+
+
 let api=apiCeleb; /* zasad,pretvorit u funkciju poslije da bira apije po odabranoj kategoriji */
 
 async function getTrivia(){
