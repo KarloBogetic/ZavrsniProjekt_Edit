@@ -6,9 +6,11 @@ body{
 }
 /*Stil za naslov*/
 #Title{
-    color: antiquewhite;
+    background-image: url('https://media.istockphoto.com/photos/golden-shiny-metal-texture-picture-id1296324320?b=1&k=20&m=1296324320&s=170667a&w=0&h=-4hkes-o1Ngq6vH8ULe0a8FhH5ZkICN6M1SS7H4w7cE=');
+    background-repeat: no-repeat;
+    background-size: cover;
     align-content: center;
-    background-color: brown;
+    color: antiquewhite;
     box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
     text-align: center;
     margin-left: auto;
@@ -19,11 +21,19 @@ body{
 /* Stil za celebrity kategoriju*/
 #Celebrity{
     color: antiquewhite;
-    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 60%;
+    transition: 0.3s;
     background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Celebrity:hover{
+    box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.2);
+    width: 70%;
 }
