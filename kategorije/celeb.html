@@ -4,25 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'celeb.css'>
     <title>Trivia</title>
 </head>
 <body>
+    <div>
+        <h1 id = 'title'>Trivia<br>Celebrity</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="wrapper">
+        <br>
+        <br>
         <div>
             <h2 id="question"></h2>
         </div>
         <div>
             <!-- <form> -->
-                <p>Pritisnite točan odgovor:</p>
+                <p id = 'instruction'>Pritisnite točan odgovor:</p>
                 <div>
                     <input type="radio" name="choice" id="choice1" value="">
-                    <label for="choice1" id="choiceLabel1"></label>
+                    <label for="choice1" id="choiceLabel1" class = 'answer'></label>
                     <input type="radio" name="choice" id="choice2" value="">
-                    <label for="choice2" id="choiceLabel2"></label>
+                    <label for="choice2" id="choiceLabel2" class = 'answer'></label>
                     <input type="radio" name="choice" id="choice3" value="">
-                    <label for="choice3" id="choiceLabel3"></label>
+                    <label for="choice3" id="choiceLabel3" class = 'answer'></label>
                     <input type="radio" name="choice" id="choice4" value="">
-                    <label for="choice4" id="choiceLabel4"></label>
+                    <label for="choice4" id="choiceLabel4" class = 'answer'></label>
                 </div>
                 <br>
                 <div>
@@ -30,6 +42,8 @@
                 </div>
             <!-- </form> -->
         </div>
+        <br>
+        <br>
     </div>
     <script src="../main.js"></script>
 </body>

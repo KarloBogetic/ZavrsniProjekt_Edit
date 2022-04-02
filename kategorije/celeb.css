@@ -1,0 +1,50 @@
+/*Stil za općenito cijelu stranicu*/
+body{
+    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Stil za karticu unutar koje se nalazi pitanje i ponuđeni odgovori*/
+#wrapper{
+    text-align: center;
+    border-style: solid;
+    border-color:black;
+    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+}
+
+/*Stil za naslov*/
+#title{
+    background-image: url('https://media.istockphoto.com/photos/golden-shiny-metal-texture-picture-id1296324320?b=1&k=20&m=1296324320&s=170667a&w=0&h=-4hkes-o1Ngq6vH8ULe0a8FhH5ZkICN6M1SS7H4w7cE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/*Stil za pitanje*/
+#question{
+    color: white;
+}
+
+/*Stil za uputu*/
+#instruction{
+    color: white;
+}
+
+/*Stil za odgovore*/
+.answer{
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.answer:hover{
+    background-color: rgba(255, 255, 0, 0.904);
+    color: blue;
+}
