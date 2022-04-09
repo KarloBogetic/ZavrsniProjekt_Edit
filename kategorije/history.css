@@ -1,6 +1,6 @@
 /*Stil za općenito cijelu stranicu*/
 body{
-    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-image: url('https://caseymccall.com/wp-content/uploads/2021/12/maps-atlantic-oldtimer-car-compass-vintage-1442539-pxhere.com_-660x382-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,14 +10,12 @@ body{
     text-align: center;
     border-style: solid;
     border-color:black;
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-color: #2F191B;
 }
 
 /*Stil za naslov*/
 #title{
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #2F191B;
     border-style: solid;
     border-color:black;
     align-content: center;
@@ -47,6 +45,6 @@ body{
 }
 
 .answer:hover{
-    background-color: rgba(255, 255, 0, 0.904);
-    color: blue;
+    background-color: #E8D4A3;
+    color: #931C19;
 }

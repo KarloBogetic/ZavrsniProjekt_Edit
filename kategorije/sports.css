@@ -1,6 +1,6 @@
 /*Stil za općenito cijelu stranicu*/
 body{
-    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-image: url('https://www.beachvillas.com/travel/wp-content/uploads/2020/11/Return_of_Sports.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,12 +10,12 @@ body{
     text-align: center;
     border-style: solid;
     border-color:black;
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-image: url('https://wallpaperaccess.com/full/3358730.jpg');
 }
 
 /*Stil za naslov*/
 #title{
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-image: url('https://wallpaperaccess.com/full/3358730.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
@@ -47,6 +47,6 @@ body{
 }
 
 .answer:hover{
-    background-color: rgba(255, 255, 0, 0.904);
-    color: blue;
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(235, 0, 0);
 }

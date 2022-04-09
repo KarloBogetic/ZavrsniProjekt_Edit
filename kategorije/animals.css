@@ -1,6 +1,6 @@
 /*Stil za općenito cijelu stranicu*/
 body{
-    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-image: url('https://www.timeforkids.com/wp-content/uploads/2020/08/animalVoting.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,12 +10,12 @@ body{
     text-align: center;
     border-style: solid;
     border-color:black;
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-image: url('https://www.solidbackgrounds.com/images/2732x2732/2732x2732-dark-olive-green-solid-color-background.jpg');
 }
 
 /*Stil za naslov*/
 #title{
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-image: url('https://www.solidbackgrounds.com/images/2732x2732/2732x2732-dark-olive-green-solid-color-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
@@ -47,6 +47,6 @@ body{
 }
 
 .answer:hover{
-    background-color: rgba(255, 255, 0, 0.904);
-    color: blue;
+    background-color:white;
+    color:olive;
 }

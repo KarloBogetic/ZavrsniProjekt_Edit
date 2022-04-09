@@ -1,6 +1,6 @@
 /*Stil za općenito cijelu stranicu*/
 body{
-    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-image: url('https://www.wenatcheevalleymuseum.org/wp-content/uploads/2018/04/red-curtain-animation-background_eybqt-5kg__F0000.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,17 +9,17 @@ body{
 #wrapper{
     text-align: center;
     border-style: solid;
-    border-color:black;
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    border-color:rgb(129, 0, 0);
+    background-image: url('https://www.publicdomainpictures.net/pictures/30000/nahled/solid-red-background.jpg');
 }
 
 /*Stil za naslov*/
 #title{
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-image: url('https://www.publicdomainpictures.net/pictures/30000/nahled/solid-red-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
-    border-color:black;
+    border-color:rgb(129, 0, 0);
     align-content: center;
     color: rgb(255, 255, 255);
     box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
@@ -47,6 +47,6 @@ body{
 }
 
 .answer:hover{
-    background-color: rgba(255, 255, 0, 0.904);
-    color: blue;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgb(255, 255, 255);
 }
