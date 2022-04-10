@@ -49,3 +49,7 @@ body{
     color:rgb(255, 251, 0);
     background-color: rgba(14, 172, 0, 0.952);
 }
+
+#message{
+    color: white;
+}

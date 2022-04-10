@@ -50,3 +50,7 @@ body{
     background-color: rgba(255, 255, 0, 0.904);
     color: blue;
 }
+
+#message{
+    color: white;
+}
