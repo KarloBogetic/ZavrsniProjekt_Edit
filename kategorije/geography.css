@@ -1,6 +1,5 @@
-/*Stil za općenito cijelu stranicu*/
 body{
-    background-image: url('https://img4.goodfon.com/wallpaper/nbig/4/6d/tekstura-fon-golden-stars.jpg');
+    background-image: url('https://0utwqfl7.cdn.imgeng.in/explore-academics/programs/images/undergraduate/henson/geographymajorMH.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,17 +8,17 @@ body{
 #wrapper{
     text-align: center;
     border-style: solid;
-    border-color:black;
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    border-color:rgb(255, 255, 255);
+    background-image: url('https://images.floorforce.com/Textures/18147/Ceramic-and-Porcelain/e42f0e47-d2ec-4b0e-9ad0-7170b8b5f3c8/Images/Azure6x6Matte_500x500.jpg?vaumkp=image_url');
 }
 
 /*Stil za naslov*/
 #title{
-    background-image: url('https://surfaces.haworth.com/surface_pictures/69_506_20210401041025_lg.jpg');
+    background-image: url('https://images.floorforce.com/Textures/18147/Ceramic-and-Porcelain/e42f0e47-d2ec-4b0e-9ad0-7170b8b5f3c8/Images/Azure6x6Matte_500x500.jpg?vaumkp=image_url');
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
-    border-color:black;
+    border-color:rgb(255, 255, 255);
     align-content: center;
     color: rgb(255, 255, 255);
     box-shadow: 0 30px 50px 0 rgba(0,0,0,0.2);
@@ -47,6 +46,6 @@ body{
 }
 
 .answer:hover{
-    background-color: rgba(255, 255, 0, 0.904);
-    color: blue;
+    color:rgb(255, 251, 0);
+    background-color: rgba(14, 172, 0, 0.952);
 }
