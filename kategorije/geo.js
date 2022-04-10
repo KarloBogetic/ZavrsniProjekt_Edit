@@ -1,29 +1,5 @@
 const apiGeo = 'https://opentdb.com/api.php?amount=1&category=22&type=multiple';
 
-/* let api='';
-
-let x = document.getElementsByClassName("skriveni").value;
-switch(x){
-    case('apiCeleb'):
-        api=apiCeleb;
-        break;
-    case('apiGeo'):
-        api=apiGeo;
-        break;
-    case('apiSport'):
-        api=apiSport;
-        break;
-    case('apiAnimal'):
-        api=apiAnimal;
-        break;
-    case('apiFilm'):
-        api=apiFilm;
-        break;
-    case('apiHistory'):
-        api=apiHistory;
-}
-
-console.log(api); */
 
 async function getTrivia(){
     let response = await fetch(apiGeo);
